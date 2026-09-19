@@ -43,18 +43,6 @@ Open **http://127.0.0.1:7860**. Internet is needed to install libraries, but the
 
 Try **Load sample → Analyse feedback**, **Inside the model → Show tokens**, and CSV download. The app loads files relative to its own folder; it does not depend on the author's machine paths.
 
-## Upload and share
-
-1. In Google Drive, select **New → Folder upload**.
-2. Choose the extracted `course-feedback-dashboard` folder.
-3. Wait for the entire upload to finish, including `model/model.safetensors` (about 268 MB).
-4. Right-click the uploaded folder and choose **Share**.
-5. Under **General access**, select **Anyone with the link** and the **Viewer** role.
-6. Click **Done**, then copy the folder link.
-7. Open the link in a signed-out/private browser window. Confirm that the folder and its files can be viewed and downloaded. Make sure you did not accidentally copy a local path or an individual file link.
-8. Submit the folder link using https://forms.gle/QPxDBQjKGJe5EoQb7 and save the confirmation.
-
-If the form still calls its URL field a Gradio/Space link, the instructor's updated message says to enter the **Drive folder link** in that same form.
 
 ## Honest authorship
 
