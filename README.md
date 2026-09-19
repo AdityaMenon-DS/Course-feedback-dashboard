@@ -21,8 +21,6 @@ tags:
 
 A Gradio application that turns short English course comments into an inspectable sentiment overview. Paste one comment per line, see both model scores, download the results, and explore the tokenizer.
 
-**Status:** locally tested; see [TESTING.md](TESTING.md) for evidence. The updated assignment requires a **Google Drive folder link**, not a live Space. See [SUBMISSION.md](SUBMISSION.md). Upload and form submission must still be completed.
-
 ## The problem
 
 A teacher may receive many short comments after a course. Course Pulse provides a first overview while keeping the original comments visible. It helps organise review; it does not replace reading feedback or measure teaching quality.
