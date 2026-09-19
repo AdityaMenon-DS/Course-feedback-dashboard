@@ -1,0 +1,43 @@
+# Python bytecode, environments, and tool caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Credentials and private configuration (never commit these)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.netrc
+token
+tokens.json
+
+# Model downloads and generated reports
+.cache/
+hf-cache/
+models/
+model/
+*.safetensors
+*.pt
+*.pth
+reports/
+flagged/
+gradio_cached_examples/
+course-pulse-*.csv
+*.log
+*.tmp
+*.zip
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
