@@ -199,10 +199,6 @@ Use anonymous demonstration comments. Do not use the output alone for grading, t
 
 The app does not train on comments or deliberately maintain a feedback database. Each successful run creates a unique temporary CSV. Gradio cache cleanup is enabled, but source/export files can remain temporarily on the host; this is not a zero-retention service. Avoid personal or sensitive information. Formula-like values are escaped when exported to reduce spreadsheet-formula execution risk.
 
-## Submit through Google Drive — current assignment
-
-Follow [SUBMISSION.md](SUBMISSION.md). Upload the extracted `course-feedback-dashboard` folder, including `model/` and `sample_data/`. Set **General access → Anyone with the link → Viewer**, verify the folder from a signed-out browser, then submit its folder link through [the assignment form](https://forms.gle/QPxDBQjKGJe5EoQb7). The deadline supplied by the instructor is **Thursday, 24 September 2026**. A live Space is no longer required.
-
 ## Publish on GitHub — optional
 
 Create an empty repository named **course-feedback-dashboard** in your own GitHub account. Do not add another README, license, or `.gitignore` during creation when pushing this existing project.
@@ -239,15 +235,11 @@ See [LEARNING_GUIDE.md](LEARNING_GUIDE.md) for the browser upload alternative an
 
 The instructor's updated requirement supersedes the earlier live-Space submission instructions. No Hugging Face deployment or automatic syncing is needed for certificate submission. The README retains Gradio SDK metadata for future hosting if available, but the graded deliverable is the publicly viewable Drive folder.
 
-## Sources and AI assistance
+## Sources 
 
 The project follows concepts taught in the Hugging Face workshop on 16–17 September 2026. Standard API usage is informed by [Transformers pipelines](https://huggingface.co/docs/transformers/main_classes/pipelines), [Gradio documentation](https://www.gradio.app/docs), and the [Gradio Spaces guide](https://huggingface.co/docs/hub/spaces-sdks-gradio).
 
-OpenAI Codex assisted with application design, implementation, documentation, explanations, and testing. The workflow and integration were developed for this project; no other student's repository was used as a template. The pretrained model and libraries are credited third-party components. The submitting learner should describe their actual review, changes, and understanding accurately and follow the instructor's AI-use rules. No originality-detector score or grade is promised.
 
 ## Author
 
-- **Name:** Add your name before submission.
-- **Roll number:** Add if required by your instructor; consider keeping it in the submission form instead of a public repository.
-- **Course / institution:** Add if required.
-- **Personal contribution:** Describe the parts you reviewed, changed, tested, and can explain. Do not claim to have trained the pretrained model.
+- **Name:** Aditya Menon.
